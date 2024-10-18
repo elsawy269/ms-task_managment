@@ -1,4 +1,6 @@
 const TaskService = require('../utils/taskService');
+const NodeCache = require("node-cache");
+const myCache = new NodeCache();
 
 const TaskController = {
     // Create a new task
@@ -62,10 +64,17 @@ const TaskController = {
     getTaskById: async (req, res) => {
         try {
             const taskId = req.params.id;
+            const key = "task" + taskId;
+            const cachedData = myCache.get(key);
+            if (cachedData) {
+                console.log("returnFormCash")
+                return  res.status(200).json({ success: true, data: cachedData });
+            }
             const task = await TaskService.getTaskById(taskId);
             if (!task) {
                 return res.status(404).json({ success: false, message: 'Task not found' });
             }
+            myCache.set(key, task, 600); // Cache for 10 minutes
             res.status(200).json({ success: true, data: task });
         } catch (error) {
             res.status(500).json({ success: false, message: error.message });
@@ -91,9 +100,6 @@ const TaskController = {
             const isOwner = taskUserId === userId;
             const isCollaborator = taskCollaborators.includes(userId);
 
-            console.log('User ID:', userId);
-            console.log('Task Owner ID:', taskUserId);
-            console.log('Collaborators:', taskCollaborators);
 
             if (!isOwner && !isCollaborator) {
                 return res.status(403).json({ success: false, message: 'You do not have permission to update this task' });
@@ -103,6 +109,10 @@ const TaskController = {
             if (!updatedTask) {
                 return res.status(404).json({ success: false, message: 'Task not found' });
             }
+
+            // update-cach
+            const key = "task" + taskId;
+            myCache.del(key);
 
             res.status(200).json({ success: true, data: updatedTask });
         } catch (error) {
@@ -120,7 +130,6 @@ const TaskController = {
             const taskId = req.params.id;
             const user = req.user; // The authenticated user
 
-            console.log('Request User Role:', user.role); // Debugging line
 
             // Admin can delete any task
             if (user.role.toString().toLowerCase() === 'admin') {
