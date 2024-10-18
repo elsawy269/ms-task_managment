@@ -1,11 +1,11 @@
-# Nodejs Expressjs MongoDB Ready-to-use API Project Structure
+# Nodejs Expressjs MongoDB API Project Structure
 
  
 REST API Development with Node.js, Express, and MongoDB
 
 ## Getting started
 
-This is a basic API skeleton written in JavaScript. It is very useful for building RESTful web APIs for your front-end platforms like Android, iOS, or JavaScript frameworks (Angular, Reactjs, etc.).
+This is a basic API  written in JavaScript. It is APIs for your front-end platforms like Android, iOS, or JavaScript frameworks (Angular, Reactjs, etc.).
 
 This project will run on **NodeJs** using **MongoDB** as a database. I maintained the code structure easily as any beginner can also adopt the flow and start building an API. 
 
