@@ -118,3 +118,6 @@ docker-compose up --build
 
 ## Monitoring 
 - using A Prometheus client for Node.js that supports histograms, summaries, gauges, and counters. Documentation  with [[metrics](http://localhost:3000/metrics)]([http://localhost:3000/metrics)).
+
+## Caching 
+- Using node-cache for in-memory caching, tasks can be retrieved by ID from the cache, and the cache is cleared when tasks are updated
