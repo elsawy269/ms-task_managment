@@ -24,7 +24,7 @@ I  had strong experience with NestJS with Clean Architecture, TypeScript, and CQ
 
 ## Advertise for Job/Work Contract
 
-I am open to a good job or work contract. You can contact me directly my email ([elsawy269@gmail.com](mailto:elsawy269@gmail.com "elsawy269@gmail.com)) or you can download my CV from my personal [website]([https://maitraysuthar.github.io/portfolio/](https://www.linkedin.com/in/mohamed-elsawy-5847a7b9/)).
+I am open to a good job or work contract. You can contact me directly my email ([elsawy269@gmail.com](mailto:elsawy269@gmail.com "elsawy269@gmail.com")) 
 
 ## Buy me a Coffee
 
