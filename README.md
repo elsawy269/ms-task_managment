@@ -7,17 +7,19 @@ REST API Development with Node.js, Express, and MongoDB
 
 This is a basic API skeleton written in JavaScript. It is very useful for building RESTful web APIs for your front-end platforms like Android, iOS, or JavaScript frameworks (Angular, Reactjs, etc.).
 
-This project will run on **NodeJs** using **MongoDB** as database. I maintained the code structure easy as any beginner can also adopt the flow and start building an API. 
+This project will run on **NodeJs** using **MongoDB** as a database. I maintained the code structure easily as any beginner can also adopt the flow and start building an API. 
 
-## Implemented NestJS with Clean Architecture, TypeScript, and CQRS
+## Note 
+Simplified architecture by using SOA and following Assignment_NodeJS, avoiding complexity I can work with other architectures
+
+I  had strong experience with NestJS with Clean Architecture, TypeScript, and CQRS
 
 - Added CQRS for handling queries and commands.
 - Integrated event-driven microservices using message queues.
 - Choose Prisma/TypeORM with migrations for code-first database management.
 - Simplified complexity by adhering to Clean Architecture principles, ensuring scalability and maintainability.
-- Monorepos with NX work space
+- Monorepos with NX workspace
 
-Simplified architecture by using SOA, avoiding complexity I can work with other architectures
 
 
 ## Advertise for Job/Work Contract
@@ -98,15 +100,6 @@ npm install
 
 ```bash
 npm run start
-```
-
-You will know server is running by checking the output of the command `npm run dev`
-
-```bash
-Connected to MongoDB: YOUR_DB_CONNECTION_STRING
-The app is running ...
-
-Press CTRL + C to stop the process.
 ```
 
 **Note:** `YOUR_DB_CONNECTION_STRING` will be your MongoDB connection string.
