@@ -10,7 +10,7 @@ This is a basic API skeleton written in JavaScript. It is very useful for buildi
 This project will run on **NodeJs** using **MongoDB** as a database. I maintained the code structure easily as any beginner can also adopt the flow and start building an API. 
 
 ## Note 
-Simplified architecture by using SOA and following Assignment_NodeJS, avoiding complexity I can work with other architectures
+Simplified architecture by using SOA and following Assignment_NodeJS, avoiding complexity, but I can work with other architectures
 
 I  had strong experience with NestJS with Clean Architecture, TypeScript, and CQRS
 
