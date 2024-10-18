@@ -24,9 +24,7 @@ I  had strong experience with NestJS with Clean Architecture, TypeScript, and CQ
 
 ## Advertise for Job/Work Contract
 
-I am open to a good job or work contract. You can contact me directly my email ([elsawy269@gmail.com](mailto:elsawy269@gmail.com "elsawy269@gmail.com")) 
-
-## Buy me a Coffee
+I am open to a good job or work contract. You can contact me directly my email ([elsawy269@gmail.com](mailto:elsawy269@gmail.com "elsawy269@gmail.com"))
 
  
 ## Features
@@ -41,7 +39,6 @@ I am open to a good job or work contract. You can contact me directly my email (
  
 
 ## Software Requirements
-
 - Node.js 
 - MongoDB 
 
@@ -109,12 +106,6 @@ npm run start
 ```bash
 npm test
 ```
-##  Run 
-
-```bash
-npm run i 
-npm start
-```
  
 ##  Run with Docker 
 
@@ -126,4 +117,4 @@ docker-compose up --build
 -  Swagger Documentation  with [[Swagger](http://localhost:3000/api-docs)]([http://localhost:3000/api-docs)).
 
 ## Monitoring 
-- using A prometheus client for Node.js that supports histogram, summaries, gauges and counters. Documentation  with [[metrics](http://localhost:3000/metrics)]([http://localhost:3000/metrics)).
+- using A Prometheus client for Node.js that supports histograms, summaries, gauges, and counters. Documentation  with [[metrics](http://localhost:3000/metrics)]([http://localhost:3000/metrics)).
