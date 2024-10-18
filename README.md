@@ -5,7 +5,7 @@ REST API Development with Node.js, Express, and MongoDB
 
 ## Getting started
 
-This is a basic API skeleton written in JavaScript. It is very useful for building RESTful web APIs for your front-end platforms like Android, iOS, or JavaScript frameworks (Angular, Reactjs, etc.).
+It is very useful for building RESTful web APIs for your front-end platforms like Android, iOS, or JavaScript frameworks (Angular, Reactjs, etc.).
 
 This project will run on **NodeJs** using **MongoDB** as database. I maintained the code structure easy as any beginner can also adopt the flow and start building an API. 
 
@@ -17,13 +17,6 @@ This project will run on **NodeJs** using **MongoDB** as database. I maintained 
 - Simplified complexity by adhering to Clean Architecture principles, ensuring scalability and maintainability.
 
 Simplified architecture by using SOA, avoiding complexity I can work with other architectures
-
-
-## Advertise for Job/Work Contract
-
-I am open to a good job or work contract. You can contact me directly my email ([elsawy269@gmail.com](mailto:elsawy269@gmail.com "elsawy269@gmail.com)) or you can download my CV from my personal [website]([https://maitraysuthar.github.io/portfolio/](https://www.linkedin.com/in/mohamed-elsawy-5847a7b9/)).
-
-## Buy me a Coffee
 
  
 ## Features
