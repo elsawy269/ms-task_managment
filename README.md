@@ -7,24 +7,24 @@ REST API Development with Node.js, Express, and MongoDB
 
 This is a basic API skeleton written in JavaScript. It is very useful for building RESTful web APIs for your front-end platforms like Android, iOS, or JavaScript frameworks (Angular, Reactjs, etc.).
 
-This project will run on **NodeJs** using **MongoDB** as database. I maintained the code structure easy as any beginner can also adopt the flow and start building an API. 
+This project will run on **NodeJs** using **MongoDB** as a database. I maintained the code structure easily as any beginner can also adopt the flow and start building an API. 
 
-## Implemented NestJS with Clean Architecture, TypeScript, and CQRS
+## Note 
+Simplified architecture by using SOA and following Assignment_NodeJS, avoiding complexity, but I can work with other architectures
+
+I  had strong experience with NestJS with Clean Architecture, TypeScript, and CQRS
 
 - Added CQRS for handling queries and commands.
 - Integrated event-driven microservices using message queues.
 - Choose Prisma/TypeORM with migrations for code-first database management.
 - Simplified complexity by adhering to Clean Architecture principles, ensuring scalability and maintainability.
-- Monorepos with NX work space
+- Monorepos with NX workspace
 
-Simplified architecture by using SOA, avoiding complexity I can work with other architectures
 
 
 ## Advertise for Job/Work Contract
 
-I am open to a good job or work contract. You can contact me directly my email ([elsawy269@gmail.com](mailto:elsawy269@gmail.com "elsawy269@gmail.com)) or you can download my CV from my personal [website]([https://maitraysuthar.github.io/portfolio/](https://www.linkedin.com/in/mohamed-elsawy-5847a7b9/)).
-
-## Buy me a Coffee
+I am open to a good job or work contract. You can contact me directly my email ([elsawy269@gmail.com](mailto:elsawy269@gmail.com "elsawy269@gmail.com"))
 
  
 ## Features
@@ -39,7 +39,6 @@ I am open to a good job or work contract. You can contact me directly my email (
  
 
 ## Software Requirements
-
 - Node.js 
 - MongoDB 
 
@@ -100,27 +99,12 @@ npm install
 npm run start
 ```
 
-You will know server is running by checking the output of the command `npm run dev`
-
-```bash
-Connected to MongoDB: YOUR_DB_CONNECTION_STRING
-The app is running ...
-
-Press CTRL + C to stop the process.
-```
-
 **Note:** `YOUR_DB_CONNECTION_STRING` will be your MongoDB connection string.
   
 ## Tests
 
 ```bash
 npm test
-```
-##  Run 
-
-```bash
-npm run i 
-npm start
 ```
  
 ##  Run with Docker 
@@ -133,4 +117,4 @@ docker-compose up --build
 -  Swagger Documentation  with [[Swagger](http://localhost:3000/api-docs)]([http://localhost:3000/api-docs)).
 
 ## Monitoring 
-- using A prometheus client for Node.js that supports histogram, summaries, gauges and counters. Documentation  with [[metrics](http://localhost:3000/metrics)]([http://localhost:3000/metrics)).
+- using A Prometheus client for Node.js that supports histograms, summaries, gauges, and counters. Documentation  with [[metrics](http://localhost:3000/metrics)]([http://localhost:3000/metrics)).
