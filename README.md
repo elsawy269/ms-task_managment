@@ -143,12 +143,11 @@ npm install
 │   ├── task.model.js
 │   └── user.model.js
 ├── routes
-│   ├── api.js
-│   ├── auth.js
-│   └── book.js
-├── middlewares
 │   ├── taskRoutes.js
 │   ├── userRoutes.js
+├── middlewares
+│   ├── authMiddleware.js
+│   ├── authorizeRoles.js
 ├── test
 │   ├── taskService.test.js
 │   ├── userService.test.js
